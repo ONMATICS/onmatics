@@ -35,6 +35,7 @@
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
 					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+					<li class="nav-item"><a href="#featured-projects-section" class="nav-link"><span>Featured</span></a></li>
 					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
@@ -503,6 +504,80 @@
 		</div>
 	</section>
 
+	<section class="ftco-section featured-project-section" id="featured-projects-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-9 col-lg-7 heading-section heading-section text-center ftco-animate">
+					<span class="subheading">Featured Work</span>
+					<h2 class="mb-4">Projects Built Beyond the Ordinary.</h2>
+					<p>A collection of ambitious applications built with real-world functionality, thoughtful architecture, and attention to detail.</p>
+				</div>
+			</div>
+
+			<article class="featured-project-item">
+				<div class="row align-items-center">
+					<div class="col-lg-5 pr-lg-5 featured-project-info ftco-animate">
+						<div class="featured-project-meta"><span class="featured-project-number">01</span><span class="featured-project-category">Social Platform / Full-Stack Application</span></div>
+						<div class="featured-project-brand"><span class="featured-project-logo" aria-hidden="true"><img src="images/chatflick_logo.png" style="width: 100%; height: auto;"></span><h3 class="featured-project-title">ChatFlick</h3></div>
+						<p class="featured-project-description">A full-stack social microblogging platform, designed and built end to end as a solo project. People post short updates with hashtags and @mentions, follow each other, like, repost and comment, and get in-app and push notifications. It also ships with Manzoid-AI, a Groq-powered assistant, tiered subscription plans and an admin dashboard.</p>
+						<ul class="featured-project-features">
+							<li><strong>Secure authentication.</strong> Email and Google sign-in, CAPTCHA, email verification and token-based password reset.</li>
+							<li><strong>Posts and feeds.</strong> Hashtag and @mention parsing, a Following feed and content discovery.</li>
+							<li><strong>Social engagement.</strong> Follows, likes, reposts, comments and milestone alerts.</li>
+							<li><strong>Notifications.</strong> In-app and Firebase push alerts with built-in deduplication.</li>
+							<li><strong>Manzoid-AI assistant.</strong> Llama-powered chat for drafting posts and generating hashtags.</li>
+							<li><strong>Plans and administration.</strong> Free to Enterprise tiers with an admin approval workflow.</li>
+						</ul>
+						<ul class="featured-project-stack">
+							<li>Flask</li><li>SQLAlchemy</li><li>Flask-Login</li><li>Jinja2</li><li>Firebase</li><li>Groq</li><li>Cloudinary</li><li>JavaScript</li>
+						</ul>
+						<div class="featured-project-actions"><a class="featured-project-btn" href="https://chatflick.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Demo <span class="fa fa-external-link" aria-hidden="true"></span></a></div>
+					</div>
+					<div class="col-lg-7 featured-project-visual ftco-animate">
+						<div class="featured-project-stage">
+							<div class="featured-project-browser" role="img" aria-label="Illustrative preview of the ChatFlick feed with sidebar, composer and posts">
+								<img src="images/ChatFlick-mock.jpg" alt="Illustrative preview of the ChatFlick feed with sidebar, composer and posts" style="width: 100%; height: auto; border-radius: 8px;">
+							</div>
+							<div class="featured-project-float featured-project-float-right"><span>Flick-AI</span><p>Draft a short post about my launch day.</p><p class="featured-project-float-reply">Here's a draft with two hashtags.</p></div>
+						</div>
+						<p class="featured-project-caption">Illustrative interface based on the app's real features. Not a screenshot.</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="featured-project-item">
+				<div class="row align-items-center">
+					<div class="col-lg-5 pl-lg-5 order-lg-2 featured-project-info ftco-animate">
+						<div class="featured-project-meta"><span class="featured-project-number">02</span><span class="featured-project-category">E-Commerce / Full-Stack Marketplace</span></div>
+						<div class="featured-project-brand"><span class="featured-project-logo" aria-hidden="true"><img src="images/marketsphere_logo.png" style="width: 100%; height: auto;"></span><h3 class="featured-project-title">MarketSphere</h3></div>
+						<p class="featured-project-description">A multi-seller marketplace with separate buyer and seller experiences on a shared Django backend. Buyers browse by category, brand and search, keep a wishlist and follow their orders. Sellers run their shops from a dedicated dashboard, while a separate admin panel oversees the whole platform.</p>
+						<ul class="featured-project-features">
+							<li><strong>Product discovery.</strong> Twelve categories, brand filters, search and new arrivals.</li>
+							<li><strong>Buyer account.</strong> Wishlist, order history and two-factor authentication.</li>
+							<li><strong>Seller dashboard.</strong> Product create and edit, order management and analytics.</li>
+							<li><strong>Multi-seller orders.</strong> One checkout split into per-seller orders and items.</li>
+							<li><strong>Shops and onboarding.</strong> Shops directory, become-a-seller flow, guide and policies.</li>
+							<li><strong>Admin and invoicing.</strong> Users, catalog, orders and payments, with PDF invoices.</li>
+						</ul>
+						<ul class="featured-project-stack">
+							<li>Django</li><li>django-allauth</li><li>ReportLab</li><li>Cloudinary</li><li>JavaScript</li>
+						</ul>
+						<div class="featured-project-actions"><a class="featured-project-btn" href="https://marketsphere.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live Demo <span class="fa fa-external-link" aria-hidden="true"></span></a></div>
+					</div>
+					<div class="col-lg-7 order-lg-1 featured-project-visual ftco-animate">
+						<div class="featured-project-stage">
+							<div class="featured-project-browser" role="img" aria-label="Illustrative preview of the MarketSphere storefront with search, categories and a product card">
+								<img src="images/MarketSphere-mock.png" alt="Illustrative preview of the MarketSphere storefront with search, categories and a product card" style="width: 100%; height: auto;">
+							</div>
+							<div class="featured-project-float featured-project-float-right"><span>Seller Dashboard</span><ul><li>Products <em>Create and edit</em></li><li>Orders <em>Per-seller</em></li><li>Analytics <em>Sales insights</em></li></ul></div>
+						</div>
+						<p class="featured-project-caption">Illustrative interface based on the app's real features. Not a screenshot.</p>
+					</div>
+				</div>
+			</article>
+		</div>
+</section>
+
 	<section class="ftco-section ftco-project" id="projects-section">
 		<div class="container-fluid px-md-4">
 			<div class="row justify-content-center pb-5">
@@ -541,7 +616,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/GUI.webp);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/GUI.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="https://github.com/Onmatics/Tic-Tac-Toe">Tic-Tac-Toe Game</a></h3>
